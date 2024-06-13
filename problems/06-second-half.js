@@ -4,8 +4,11 @@ parameter. The function should return a new string containing only the second
 half of characters in the string parameter.
 */
 
-function secondHalf(str) {
+
   // Your code here 
+function secondHalf(str) {
+  const index = Math.ceil(str.length / 2);
+  return str.substring(index);
 }
 
 // console.log(secondHalf('academy')); // 'emy'

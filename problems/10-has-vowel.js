@@ -7,6 +7,22 @@ Vowels are the letters "a", "e", "i", "o", "u".
 */
 
 // Your code here 
+function hasVowel(str) {
+    if (str.includes('a')) {
+        return true
+    } else if (str.includes('e')) {
+        return true
+    } else if (str.includes('i')) {
+        return true
+    } else if (str.includes('o')) {
+        return true
+    } else if (str.includes('u')) {
+        return true
+    } else {
+        return false
+    }
+} 
+    
 
 // console.log(hasVowel('dog'));          // => true
 // console.log(hasVowel('conventional')); // => true

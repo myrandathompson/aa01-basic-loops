@@ -4,7 +4,10 @@ and returns the number of vowels in the word.
 
 Vowels are the letters "a", "e", "i", "o", "u".
 */
-
+function countVowels(str) {
+    const matches = str.match(/[aeiou]/gi);
+    return matches ? matches.length : 0;
+}
 // Your code here 
 
 // console.log(countVowels("bootcamp")); // => 3
