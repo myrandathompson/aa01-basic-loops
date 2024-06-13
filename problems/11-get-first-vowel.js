@@ -8,6 +8,16 @@ Vowels are the letters "a", "e", "i", "o", "u".
 
 // Your code here 
 
+function getFirstVowel(str) {
+    const vowels = "aeiou";
+    for (const char of str.toLowerCase()) {
+        if (vowels.includes(char)) {
+            return char;
+        }
+    }
+    return null
+} 
+    
 // console.log(getFirstVowel('battery'));      // 'a'
 // console.log(getFirstVowel('tunnel'));       // 'u'
 // console.log(getFirstVowel('dog'));          // 'o'
